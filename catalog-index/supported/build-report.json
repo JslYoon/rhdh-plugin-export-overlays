@@ -755,11 +755,14 @@
       "stages": {
         "bootstrap": {
           "status": "pass",
-          "oci_ref": "ghcr.io/redhat-developer/rhdh-plugin-export-overlays/red-hat-developer-hub-backstage-plugin-lightspeed-backend:bs_1.49.4__2.8.5"
+          "oci_ref": "ghcr.io/redhat-developer/rhdh-plugin-export-overlays/red-hat-developer-hub-backstage-plugin-lightspeed-backend:bs_1.49.4__2.9.0"
         },
         "image-metadata-fetch": {
           "status": "pass",
-          "digest": "sha256:cabcd7830704f32be2e5bca91d8bd2bd17c6274503955c70d2f214f830401667"
+          "digest": "sha256:2e3efa5c588e797a9aa286d221363d76906605d5deb87625f302aaadd210838c",
+          "fallback": true,
+          "requestedTag": "bs_1.49.4__2.8.6",
+          "resolvedTag": "bs_1.49.4__2.9.0"
         },
         "dpdy": {
           "status": "pass"
@@ -769,7 +772,7 @@
         }
       },
       "package": "@red-hat-developer-hub/backstage-plugin-lightspeed-backend",
-      "version": "2.8.5",
+      "version": "2.9.0",
       "workspace": "lightspeed",
       "overall": "pass"
     },
@@ -777,11 +780,14 @@
       "stages": {
         "bootstrap": {
           "status": "pass",
-          "oci_ref": "ghcr.io/redhat-developer/rhdh-plugin-export-overlays/red-hat-developer-hub-backstage-plugin-lightspeed:bs_1.49.4__2.8.5"
+          "oci_ref": "ghcr.io/redhat-developer/rhdh-plugin-export-overlays/red-hat-developer-hub-backstage-plugin-lightspeed:bs_1.49.4__2.9.0"
         },
         "image-metadata-fetch": {
           "status": "pass",
-          "digest": "sha256:008f907220197ea8d4d70495acf98da2bb6cde0f809bea415f530247c771b487"
+          "digest": "sha256:25b77f97aca1e62677761a6d30932ad0faba735c0cd3b6a33c24a941a88a3e3f",
+          "fallback": true,
+          "requestedTag": "bs_1.49.4__2.8.6",
+          "resolvedTag": "bs_1.49.4__2.9.0"
         },
         "dpdy": {
           "status": "pass"
@@ -791,7 +797,7 @@
         }
       },
       "package": "@red-hat-developer-hub/backstage-plugin-lightspeed",
-      "version": "2.8.5",
+      "version": "2.9.0",
       "workspace": "lightspeed",
       "overall": "pass"
     },
